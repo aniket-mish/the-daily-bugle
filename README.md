@@ -1,9 +1,6 @@
-# eatright
+# Daily 🕸 Bugle
 
-> [!NOTE]
-> This is just an idea. I'm here to show how we can build LLMOps capability. So I do not consider building perfect datasets, building eval systems or improving accuracy to near 100%.
-
-I'm building an health expert powered by an LLM. It listens to health related websites like men's health (only atm). Builds the real-time knowledge. Fine-tunes the LLM. Creates an inference service.
+I'm building a news aggregator app but for superhero fans. This app keeps track of all the superhero stuff going on in the world (movies, tv shows). You can talk to it and ask all things including eastereggs.
 
 ## Dataset
 

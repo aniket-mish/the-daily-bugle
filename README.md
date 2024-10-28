@@ -1,6 +1,6 @@
 # The Daily 🕸 Bugle
 
-I'm building a news aggregator app but for superhero fans. This app keeps track of all the superhero stuff going on in the world (movies, tv shows). You can ask trivia things including coolest easter eggs.
+I'm building a comic nerd app that answers my nerdy questions about superheroes. This keeps track of all the superhero stuff going on in the world. You can ask trivia things including coolest easter eggs.
 
 ![image](https://github.com/user-attachments/assets/a15f54ba-14f3-498d-8de6-2d74f3856d1c)
 

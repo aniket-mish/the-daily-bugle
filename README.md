@@ -30,6 +30,14 @@ conda create -n comicapp python=3.11
 conda activate comicapp
 ```
 
+```
+cd comicapp
+
+uv init
+
+uv pip install numpy
+```
+
 ## Dataset
 
 Let's create a synthetic instruction-following dataset 

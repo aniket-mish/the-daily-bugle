@@ -24,18 +24,22 @@ My project map:
 
 ### Environment
 
+I am using `conda` for creating environments.
+
 ```bash
 conda create -n comicapp python=3.11
 
 conda activate comicapp
 ```
 
+I am using `poetry` for package management. I will use `uv` in prod as it is very fast.
+
 ```
 cd comicapp
 
-uv init
+poetry init
 
-uv pip install numpy
+poetry add numpy
 ```
 
 ## Dataset

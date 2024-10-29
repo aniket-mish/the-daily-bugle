@@ -42,11 +42,8 @@ poetry init
 poetry add numpy
 ```
 
-## Dataset
-
-Let's create a synthetic instruction-following dataset 
-[Alpaca](https://crfm.stanford.edu/2023/03/13/alpaca.html)
-
 ## Data Collection Pipeline
 
-Once the data is scraped, I'm cleaning and storing it in a nosql database. I have a change data capture pattern implemented that checks any change made in the database.
+Once the data is scraped, I'm cleaning and storing it in a nosql database.
+
+I am scraping 

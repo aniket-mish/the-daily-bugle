@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "the-daily-bugle"
+version = "0.1.0"
+description = ""
+authors = ["Aniket Mishrikotkar <aniketmishrikotkar@gmail.com>"]
+readme = "README.md"
+packages = [{include = "the_daily_bugle"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

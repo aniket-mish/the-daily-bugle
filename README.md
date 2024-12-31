@@ -5,6 +5,7 @@ I'm building a comic nerd app that answers my nerdy questions about superheroes.
 ![image](https://github.com/user-attachments/assets/a15f54ba-14f3-498d-8de6-2d74f3856d1c)
 
 My project map:
+- ~Setup and installations~
 - Collect data
 - Fine-tune an open source llm
 - Vector db
@@ -13,12 +14,12 @@ My project map:
 
 ## Index
 
-1. Data collection
-2. Feature engineering
-3. Training
-4. Inference
+1. Data Collection
+2. Feature Engineering
+3. Training/Finetuning a LLM
+4. Inference Service
 5. Monitoring
-6. UI
+6. UI/UX
 
 ## Setup
 
@@ -27,23 +28,24 @@ My project map:
 I am using `conda` for creating environments.
 
 ```bash
-conda create -n comicapp python=3.11
+conda create -n comic python=3.11
 
-conda activate comicapp
+conda activate comic
 ```
 
-I am using `poetry` for package management. I will use `uv` in prod as it is very fast.
+I am using `poetry` for package management. I will use `uv` in production because its very fast.
 
 ```
-cd comicapp
+cd comic
 
 poetry init
 
-poetry add numpy
+poetry add numpy pandas
 ```
 
+### Task Runner
+
+Instead of using `Makefile` for simple automation, i'm using [poe the poet](https://github.com/nat-n/poethepoet) plugin. I can just add the scripts in the `pyproject.toml` file and execute them. It works well with poetry.
+
 ## Data Collection Pipeline
-
-Once the data is scraped, I'm cleaning and storing it in a nosql database.
-
-I am scraping 
+ 
